@@ -1,0 +1,167 @@
+.whiteBackground {
+    background-color:white;
+}
+
+.imageShrink {
+    transform: scale(.99);
+    transition: .3s;
+    width:400px;
+    position:absolute;
+    left:250px;
+    top:120px;
+}
+
+.imageShrink:hover {
+transform: scale(.97);
+}
+
+h1 {
+    position:absolute;
+    top:540px;
+    left:605px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #d38182;
+    font-size: 3em;
+}
+
+h2 {
+    position:absolute;
+    top:200px;
+    left:350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#d38182;
+    font-size: 3em;
+}
+
+h5 {
+    top: 620px;
+    left:378px;
+    position:absolute;
+    font-size: 20px;
+    width: 760px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img {
+    margin-left:20px;
+    height:90px;
+    margin-top:30px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color:#757575;
+}
+
+.fa-brands {
+    font-size: 3rem;
+    color: black;
+}
+
+.form {
+    position:absolute;
+    top:150px;
+}
+
+.thumbNail {
+    width:100%;
+    transition: .25s;
+}
+
+.thumbNail:hover {
+    filter: contrast(110%)
+}
+
+.row1 {
+    padding-top:200px;
+}
+
+.row2{
+    padding-top:200px;
+}
+
+
+body {
+    height:1000px;
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        height:140px;
+        position: center;
+    }
+
+    header li a{
+       width: auto;
+       border-bottom: none;
+       display:block;
+       float: center;
+       text-align: center;
+       align-items: center;
+    }
+
+    header nav {
+        position:absolute;
+        left:350px;
+    }
+
+    .imageShrink {
+        position:absolute;
+        left:120px;
+        top:170px; 
+    }
+
+    h1 {
+        position:absolute;
+        top:585px;
+        left:235px;
+    }
+
+    h5 {
+        top: 635px;
+        left: 80px;
+        position:absolute;
+        width: 640px;
+        padding-right:45px;
+    }
+
+    header img {
+        display:none;
+    }
+
+    h2 {
+        position:absolute;
+        top:200px;
+        left:100px;
+    }
+}

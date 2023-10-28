@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Portfolio Website</title>
+  <meta name="description" content="My portfolio of work">
+  <meta name="author" content="Bianca Scoropan">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+    <body>
+        <div class="container">
+            <header>
+                <div id="logo">
+                <img src="images/logo.svg" alt="B logo">
+                </div>
+                <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                </nav>
+            </header>
+            <h2>PORTFOLIO</h2>
+                <div style="height: 300px;"></div>
+
+                        <div class="row">
+                                <div class="one-third column">
+                                        <a href="images/MadeGoodMockup.png" data-lightbox="IMAGE_SET_1" data-title="MadeGood Packaging Redesign"><img class="thumbNail" src="images/MadeGoodMockup.png" alt="Portfolio Piece 1"></a>
+                                </div>
+                                <div class="one-third column">
+                                        <a href="images/Travsy.png" data-lightbox="IMAGE_SET_1" data-title="Travsy User Interface"><img class="thumbNail" src="images/Travsy.png" alt="Portfolio Piece 2"></a>
+                                </div>
+                                <div class="one-third column">
+                                        <a href="images/AdelineBrandBoard.png" data-lightbox="IMAGE_SET_1" data-title="Adeline Brand Board"><img class="thumbNail" src="images/AdelineBrandBoard.png" alt="Portfolio Piece 3"></a>
+                                </div>
+                        </div>
+                        <br>
+                        <div class="row"> 
+                                <div class="one-third column">
+                                        <a href="images/Brochure_Mockup.png" data-lightbox="IMAGE_SET_1" data-title="Brochure Mockup"><img class="thumbNail" src="images/Brochure_Mockup.png" alt="Portfolio Piece 4"></a>
+                                </div>
+                                <div class="one-third column">
+                                        <a href="images/clothes shopping app 1.png" data-lightbox="IMAGE_SET_1" data-title="Clothing App UI"><img class="thumbNail" src="images/clothes shopping app 1.png" alt="Portfolio Piece 5"></a>
+                               </div>
+                               <div class="one-third column">
+                                         <a href="images/coffeeshopwebsitemockup.png" data-lightbox="IMAGE_SET_1" data-title="Coffee Shop Web Design"><img class="thumbNail" src="images/coffeeshopwebsitemockup.png" alt="Portfolio Piece 6"></a>
+                                </div>
+                        </div>
+        <script src="js/light-box-plus-jquery.min.js"></script>
+
+        <script>
+                lightbox.option({
+                  'resizeDuration': 100,
+                  'wrapAround': true,
+                  'maxWidth': 700
+                })
+            </script>
+        </div>
+    </body>
+</html>
